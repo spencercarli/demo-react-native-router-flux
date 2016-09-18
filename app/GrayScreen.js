@@ -4,11 +4,15 @@ import {
   Text,
   View
 } from 'react-native';
+import { Actions } from 'react-native-router-flux';
 
 const GrayScreen = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.welcome}>
+      <Text
+        style={styles.welcome}
+        onPress={() => Actions.scarlet()}
+      >
         Gray Screen
       </Text>
     </View>
