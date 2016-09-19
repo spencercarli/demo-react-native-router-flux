@@ -15,6 +15,12 @@ const GoldScreen = () => {
       >
         Gold Screen
       </Text>
+      <Text
+        style={styles.welcome}
+        onPress={() => Actions.modal()}
+      >
+        Open Modal
+      </Text>
     </View>
   );
 }

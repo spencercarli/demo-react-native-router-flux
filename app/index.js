@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import { Text } from 'react-native';
 import { Router, Scene } from 'react-native-router-flux';
 
-// New Imports
 import ScarletScreen from './ScarletScreen';
 import GrayScreen from './GrayScreen';
 import BlueScreen from './BlueScreen';
 import MaizeScreen from './MaizeScreen';
 import GoldScreen from './GoldScreen';
 import BlackScreen from './BlackScreen';
+import ModalScreen from './ModalScreen';
 
 // Simple component to render something in place of icon
 const TabIcon = ({ selected, title }) => {
@@ -29,7 +29,8 @@ const App = () => {
         >
           {/* Tab and it's scenes */}
           <Scene key="osu" title="OSU" icon={TabIcon}>
-            <Scene key="scarlet"
+            <Scene
+              key="scarlet"
               component={ScarletScreen}
               title="Scarlet"
             />
@@ -68,6 +69,14 @@ const App = () => {
             />
           </Scene>
         </Scene>
+
+        <Scene
+          key="modal"
+          direction="vertical"
+          component={ModalScreen}
+          title="Modal"
+          hideNavBar
+        />
       </Scene>
     </Router>
   );
