@@ -20,4 +20,4 @@ If you find any issues please open an issue or, even better, open a PR to expedi
 
 ## Support
 
-If you found this helpful consider signing up for my [email list](http://eepurl.com/bXLcvT) where I send out weekly content around building apps with React Native.
+If you found this helpful consider signing up for my [email list](http://www.handlebarlabs.com/email-list) where I send out weekly content around building apps with React Native.
