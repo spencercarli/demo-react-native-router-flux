@@ -2,7 +2,7 @@ A basic overview of using [`react-native-router-flux`](https://github.com/aksono
 
 If you want more information...
 
-- Read the associated blog post [TODO]
+- [Read the associated blog post] (https://medium.com/differential/react-native-basics-using-react-native-router-flux-f11e5128aff9#.vna4ocu6u)
 - [Read the official documentation](https://github.com/aksonov/react-native-router-flux#documentation)
 
 ## Running
